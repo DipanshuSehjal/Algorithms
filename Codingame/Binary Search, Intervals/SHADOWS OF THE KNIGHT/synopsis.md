@@ -2,6 +2,10 @@
 
 https://www.codingame.com/training/medium/shadows-of-the-knight-episode-1
 
+Have a look at the demonstration of the game with the solution
+
+https://www.codingame.com/share-replay/343112442
+
 ## The goal: 
 Batman will look for the hostages on a given building by jumping from one window to another using his grapnel gun. Batman's goal is to jump to the window where the hostages are located in order to disarm the bombs. Unfortunately he has a limited number of jumps before the bombs go off...
 

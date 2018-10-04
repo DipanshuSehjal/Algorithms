@@ -7,4 +7,6 @@ After solving problems for quite a long now, I realized that I am not helpful to
 
 Hence, I decided to share my series of work in a hope that someday, sometime, someone might find a ray of sunshine from them. It keeps me motivated to solve more and more problems, and share it with you all.
 
+**Knowledge Sharing is Power Sharing**
+
 Happy Exploring! Time to rev up your game!

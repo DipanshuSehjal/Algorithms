@@ -1,6 +1,6 @@
 # Synopsis
 
-https://www.codingame.com/training/medium/shadows-of-the-knight-episode-1
+Problem Statement: https://www.codingame.com/training/medium/shadows-of-the-knight-episode-1
 
 Have a look at the demonstration of the game with the solution
 

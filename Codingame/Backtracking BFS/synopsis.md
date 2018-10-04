@@ -1,5 +1,5 @@
 
-#Synopsis
+# Synopsis
 
 Lt. Sulu: “After scanning the area, it appears that the tracker beam holding the ship down originates from a large metallic structure buried beneath the surface. The scans show that the structure contains hollow parts so I think someone could be teleported inside and reach what appears to be a control room. Unfortunately I cannot pinpoint the exact location of this control room due to massive interferences.”
 

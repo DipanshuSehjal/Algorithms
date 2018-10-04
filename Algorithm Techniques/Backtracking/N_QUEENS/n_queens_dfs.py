@@ -1,3 +1,7 @@
+"""
+https://www.hackerrank.com/challenges/queens-on-board/problem
+"""
+
 from operator import __add__
 from functools import reduce
 

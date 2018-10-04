@@ -1,0 +1,54 @@
+
+
+
+        # if this state is already visited
+        if (curr.j1, curr.j2) in is_visited:
+            if is_visited[(curr.j1, curr.j2)][0] is True:
+                continue
+
+        # doesn't meet jug constraints. Makes sense in this implementation
+        if curr.j1 > a or curr.j2 > b or curr.j1 < 0 or curr.j2 < 0:
+            continue
+
+        # add to the path
+        path.append((curr.j1, curr.j2))
+
+        # make current state as visited
+        is_visited[(curr.j1, curr.j2)] = True
+
+        # if we reach the solution state
+        if curr.j1 == target or curr.j2 == target:
+            if curr.j1 == target:
+                if curr.j2 != 0:    # add one more step where we empty the second jug
+                    path.append((curr.j1, 0))   # else it is already emptied
+
+            else:   # second jug has target
+                if curr.j1 != 0:
+                    path.append((0, curr.j2))   # empty the first jug and add to path
+            # print the solution
+            print("path: ", path)
+            break
+
+        # if not the final state then keep hustling. Develop the intermediate
+        # steps to reach the target
+
+        q.append(State(curr.j1, b))      # fill jug 2
+        q.append(State(a, curr.j2))      # fill jug 1
+
+        for pour in range(1, max(a, b)+1):
+            c = curr.j1 + pour      # pour from jug2 to jug1
+            d = curr.j2 - pour
+
+            # check if this state is possible
+            if c == a or d >= 0:       # changed this part !!
+                q.append(State(c, d))
+
+            c = curr.j1 - pour  # pour from jug1 to jug2
+            d = curr.j2 + pour
+
+            # check if this state is possible
+            if d == b or c >= 0:  # changed this part !!
+                q.append(State(c, d))
+        q.append(State(a, 0))        # empty jug 2
+        q.append(State(0, b))        # empty jug 1
+

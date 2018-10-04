@@ -1,6 +1,7 @@
 
 """
 N queen problem
+https://www.geeksforgeeks.org/n-queen-problem-backtracking-3/
 
 """
 total_cnt = 0

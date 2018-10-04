@@ -5,6 +5,6 @@ You may find some of these solutions helpful when solving programming questions,
 
 After solving problems for quite a long now, I realized that I am not helpful to the community. I know that feeling of doubt while trying to figure out the missing piece of the puzzle, feeling of getting in the description of the problem, and sometimes just a lack of motivation from a good pal.
 
-Hence, I decided to share my series of work in a hope that someday, sometime, someone might find a ray of sunshine from them.
+Hence, I decided to share my series of work in a hope that someday, sometime, someone might find a ray of sunshine from them. It keeps me motivated to solve more and more problems, and share it with you all.
 
 Happy Exploring!

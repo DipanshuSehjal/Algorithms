@@ -10,4 +10,7 @@ Problems covers
 5. Sorting, 
 6. Recursion
 
-Since the number of solutions is high, I restrict myself from uploading a batch of solutions. Instead I am posting a link to solutions to my hackerrank profile. Feel free to explore the set.
+Since the number of solutions is high, I restrict myself from uploading a batch of solutions. Instead, I am posting a link to questions that I've solved. Feel free to explore the set. If you need a solution to any of these, please don't hesitate to message me. 
+Meanwhile, I'll upload the other solutions.
+
+HackerRank profile: https://www.hackerrank.com/vks_dipanshu
